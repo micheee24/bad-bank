@@ -17,9 +17,5 @@ function Spa() {
   );
 }
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <React.StrictMode>
-    <Spa />
-  </React.StrictMode>
-);
+
+ReactDOM.render(<Spa />, document.getElementById("root"));
