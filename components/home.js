@@ -1,7 +1,7 @@
 function Home() {
   return (
     <Card
-      bgcolor="info"
+      bgcolor="dark"
       txtcolor="white"
       header="BadBank Landing Module"
       title="Welcome to the bank"
@@ -10,7 +10,9 @@ function Home() {
         <img
           src="images/bank.png"
           className="img-fluid"
-          alt="Responsive image"/>}
+          alt="Responsive image"
+        />
+      }
     />
   );
 }
